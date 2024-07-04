@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-01</title>
+    <script>
+      // Code One
+      /* 
+        This Code will not work because The script Tag Writen before the body tag 
+           and The Interpreter Will Read This line before The body Tag and it's Reading the code line by line , 
+           so he will not found the element that he read 
+        */
+      document.getElementById("el").style.color = "red";
+    </script>
+    <script>
+      // Code Two
+      /* 
+         This code Will work because we used Function That will not work after The page loading his content
+        */
+      window.onload = function () {
+        document.getElementById("el").style.color = "red";
+      };
+    </script>
+  </head>
+  <body>
+    <h1 id="el">Page Title</h1>
+    <script>
+      // Code Three
+      /* 
+          This Code will work because the script tag written at the end of the page
+      */
+      document.getElementById("el").style.color = "red";
+    </script>
+  </body>
+</html>
