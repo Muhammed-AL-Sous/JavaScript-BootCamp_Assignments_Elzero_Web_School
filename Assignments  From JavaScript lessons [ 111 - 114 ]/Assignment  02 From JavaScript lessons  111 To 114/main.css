@@ -1,0 +1,39 @@
+form {
+  background-color: #383838;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+form .input {
+  display: block;
+  width: 400px;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+form label {
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+form select {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  text-transform: capitalize;
+}
