@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-01</title>
+  </head>
+  <body>
+    <script>
+      window.onload = function () {
+        let elzero = document.querySelectorAll(".open");
+        for (let i = 0; i < elzero.length; i++) {
+          if (
+            elzero[i].classList.contains("open") &&
+            elzero[i].textContent === "Elzero"
+          ) {
+            elzero[i].click();
+          }
+        }
+      };
+    </script>
+    <a class="open" href="https://google.com">Google</a>
+    <a class="open" href="https://elzero.org">Elzero</a>
+    <a class="not" href="https://facebook.com">Facebook</a>
+    <a class="linked" href="https://linkedin.com">Elzero</a>
+  </body>
+</html>
