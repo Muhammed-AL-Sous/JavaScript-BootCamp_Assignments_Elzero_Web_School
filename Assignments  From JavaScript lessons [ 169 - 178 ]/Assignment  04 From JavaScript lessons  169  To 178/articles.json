@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "writer": "First writer",
+    "section": "Medical",
+    "title": "First Title",
+    "content": "Content Number 1"
+  },
+  {
+    "id": 2,
+    "writer": "Second writer",
+    "section": "Political",
+    "title": "Second Title",
+    "content": "Content Number 2"
+  },
+  {
+    "id": 3,
+    "writer": "Third writer",
+    "section": "Education",
+    "title": "Third Title",
+    "content": "Content Number 3"
+  },
+  {
+    "id": 4,
+    "writer": "Fourth writer",
+    "section": "Polissy",
+    "title": "Fourth Title",
+    "content": "Content Number 4"
+  },
+  {
+    "id": 5,
+    "writer": "Fifth writer",
+    "section": "Classical",
+    "title": "Fifth Title",
+    "content": "Content Number 5"
+  }
+]
